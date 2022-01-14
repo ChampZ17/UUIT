@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zadaca 5 - PTF</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header-container">
+            <div class="header">
+                <img class="logo" src="http://ptf.unze.ba/wp/wp-content/uploads/2018/02/Logo-PTF018.png" alt="logo">
+                <ul class="list">
+                    <li>Home</li>
+                    <li>Fakultet <i class="arrow down"></i> </li>
+                    <li>Nastava <i class="arrow down"></i> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="btn-1"></div>
+            <div class="btn-2"></div>
+            <div class="btn-3"></div>
+        </div>
+        <div class="main-container">
+            <div class="element-1"></div>
+            <div class="element-2"></div>
+        </div>
+        <div class="footer">
+            <div class="elements-cont">
+                <div class="footer-element-1"></div>
+                <div class="footer-element-2"></div>
+                <div class="footer-element-3"></div>
+            </div>
+        </div>
+        <div class="popup">
+            <img src="https://res.cloudinary.com/teepublic/image/private/s--o_8yO6Cx--/t_Preview/b_rgb:ffb81c,c_limit,f_jpg,h_630,q_90,w_630/v1508696997/production/designs/1991372_1.jpg" alt="popup">
+        </div>
+    </body>
+</html>
+
+
