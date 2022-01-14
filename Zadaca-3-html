@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>POLITEHNIČKI FAKULTET</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <img class="logo" src="media/ptfLogo.png">
+                <h1 class="naslov">POLITEHNIČKI FAKULTET</h1>
+            </div>
+            <div class="buttons">
+                <div class="proizvodni-biznis-button">PROIZVODNI BIZNIS</div>
+                <div class="gradevinarstvo-button">GRAĐEVINSARTVO</div>
+                <div class="softverski-button">SOFTVERSKO INŽENJERSTVO</div>
+            </div>
+            <div class="container-content">
+                <div class="page">
+                    <div class="l-menu"> <p>L-MENU</p> </div>
+                    <div class="content"> <p>CONTENT</p> </div>
+                </div>
+                <div class="footer"> <p>FOOTER</p> </div>
+            </div>
+        </div>
+    </body>
+</html>
