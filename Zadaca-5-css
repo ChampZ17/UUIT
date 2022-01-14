@@ -1,0 +1,142 @@
+* {
+    margin: auto;
+    padding: 0px;
+    font-family: Helvetica, Arial;
+    max-width: 960px;
+}
+
+.top-heading {
+    background-color: #f7c500;
+    color: red;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.mid-heading {
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.paragraph {
+    height: 200px;
+    width: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+}
+
+.img-container div {
+    background-color: black;
+}
+
+.img-container img {
+    width: 320px;
+}
+
+.img-4 {
+    display: none;
+}
+
+.footer {
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .body {
+        max-width: 767px;
+        margin: 0px;
+    }
+
+    .paragraph {
+        padding: 10px;
+        position: absolute;
+        top: 750px;
+    }
+
+    .footer {
+        position: absolute;
+        top: 110%;
+        width: 100%;
+    }
+
+    .img-container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-container div {
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .img-container img {
+        padding: 10px;
+        background-color: white;
+        margin: 0px;
+    }
+
+    .img-4 {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .body {
+        max-width: 480px;
+        margin: 0px;
+    }
+
+    .paragraph {
+        padding: 10px;
+        position: static;
+    }
+
+    .img-container {
+        margin: 0px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        position: relative;
+    }
+
+    .img-container div {
+        background-color: black;
+    }
+
+    .img-container img {
+        background-color: black;
+        padding: 0px;
+    }
+
+    .footer {
+        position: static;
+    }
+}
