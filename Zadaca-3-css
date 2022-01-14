@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header {
+    height: 150px;
+    background-color: lightgrey;
+}
+
+.logo {
+    float: left;
+    padding-top: 8px;
+    margin-left: 40px;
+    width: 120px;
+}
+
+.naslov {
+    color: black;
+    text-align: right;
+    margin-right: 100px;
+    line-height: 150px;
+    font-size: 30px;
+}
+
+.buttons {
+    width: 100%;
+    display: inline-flex;
+}
+
+.proizvodni-biznis-button {
+    width: 33%;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: brown;
+}
+
+.gradevinarstvo-button {
+    width: 33%;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: orange;
+}
+
+.softverski-button {
+    width: 33%;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+}
+
+.container-content {
+    background-image: url("media/studentSlika.jpg");
+    background-size: cover;
+    height: 853px;
+}
+
+.page {
+    display: inline-flex;
+    width: 70%;
+    height: 630px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    padding-top: 20px;
+}
+
+.l-menu {
+    background-color: red;
+    opacity: 50%;
+    width: 30%;
+    height: 400px;
+    margin-right: 2%;
+}
+
+.l-menu p {
+    color: white;
+    opacity: 100%;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content {
+    width: 68%;
+    height: 607px;
+    background-color: blue;
+    opacity: 50%;
+}
+
+.content p {
+    color: white;
+    opacity: 100%;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    height: 203px;
+    background-color: rgba(184, 184, 184, 0.8);
+}
+
+.footer p {
+    color: white;
+    opacity: 100%;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.proizvodni-biznis-button:hover {
+    color: lightblue;
+    background-color: black;
+}
+
+.gradevinarstvo-button:hover {
+    color: lightblue;
+    background-color: black;
+}
+
+.softverski-button:hover {
+    color: lightblue;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
