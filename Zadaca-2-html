@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Softversko Inzenjerstvo</title>
+    </head>
+    <body>
+        <div class="sekcijaJedan">
+            <img class="ptfLogo" src="http://ptf.unze.ba/wp/wp-content/uploads/2018/02/PTFlogoFooteri.png" alt="PTF logo">
+            <h1 class="hTitle">SOFTVERSKO INZENJERSTVO</h1>
+        </div>
+        <div class="sekcijaDva">
+            <h2 class="h2Title">Ime i Prezime</h2>
+            <p class="sekcijaDvaParagraf">Cillum occaecat ipsum adipisicing non eiusmod dolore magna. Adipisicing non excepteur veniam deserunt.
+                Mollit occaecat qui fugiat id proident exercitation laboris ea elit tempor non. Laboris reprehenderit Lorem commodo nostrud.
+                Voluptate cillum laborum reprehenderit eu consectetur voluptate esse. Exercitation sit exercitation magna mollit eiusmod cupidatat amet.
+                Sint Lorem in commodo amet ut veniam.</p>
+        </div>
+        <div class="sekcijaTri">
+            <h2 class="h2Title2">Moji Hobiji</h2>
+            <p class="sekcijaTriParagraf">Lorem ipsum dolor<br>Lorem ipsum dolor<br>Lorem ipsum dolor<br>Lorem ipsum dolor</p>
+        </div>
+        <div class="sekcijaCetri">
+            <h2 class="h2Title3">Moje Slike</h2>
+                <div class="flexCont">
+                    <img class="slika" src="https://cdn.pixabay.com/photo/2017/11/19/15/42/dog-2963062_960_720.jpg" alt="Prva Slika">
+                    <img class="slika" src="https://cdn.pixabay.com/photo/2017/07/31/21/04/people-2561053__340.jpg" alt="Druga Slika">
+                    <img class="slika" src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__340.jpg" alt="Treca Slika">
+                </div>
+        </div>
+    </body>
+</html>
